@@ -30,3 +30,9 @@
 #define COCOAPODS_VERSION_MINOR_Specta 2
 #define COCOAPODS_VERSION_PATCH_Specta 1
 
+// Swizzlean
+#define COCOAPODS_POD_AVAILABLE_Swizzlean
+#define COCOAPODS_VERSION_MAJOR_Swizzlean 0
+#define COCOAPODS_VERSION_MINOR_Swizzlean 1
+#define COCOAPODS_VERSION_PATCH_Swizzlean 1
+
