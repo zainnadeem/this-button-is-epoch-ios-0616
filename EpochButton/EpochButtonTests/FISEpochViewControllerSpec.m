@@ -17,7 +17,6 @@ SpecBegin(FISEpochViewController)
 
 describe(@"FISEpochViewController", ^{
     __block Swizzlean *swizzle;
-//    __block FISEpochViewController *vc = [[FISEpochViewController alloc] init];
     
     beforeAll(^{
         [KIFUITestActor setDefaultTimeout:2];
