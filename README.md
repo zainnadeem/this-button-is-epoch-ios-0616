@@ -1,5 +1,5 @@
 ---
-  tags: oop, beginner, view, todo
+  tags: beginner, views, todo
   languages: objc
 ---
 
