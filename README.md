@@ -21,3 +21,4 @@
    - Set the accessibility label of this `UIButton` to 'epoch button' and make sure the accessibility enabled box is checked
  5. Create a `UIViewController` file and call `FISEpochViewController`.
  6. When you click on the `UIButton`, the `UILabel` should update with an epoch time for the moment you hit the button.
+   - Implement this functionality inside of a method called `epochMethod` inside of `FISEpochViewController` that should look like this:  `-(double)epochMethod`
