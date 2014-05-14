@@ -17,34 +17,33 @@ SpecBegin(FISEpochViewController)
 
 describe(@"FISEpochViewController", ^{
     __block Swizzlean *swizzle;
-    
+
     beforeAll(^{
         [KIFUITestActor setDefaultTimeout:2];
-        
+
         swizzle = [[Swizzlean alloc] initWithClassToSwizzle:[FISEpochViewController class]];
-        
+
         [swizzle swizzleInstanceMethod:NSSelectorFromString(@"epochMethod") withReplacementImplementation:^(id _self){
-            return 35.0f;
+            return 35.0;
         }];
-        
-    });
-    
-    beforeEach(^{
 
     });
-    
+
+    beforeEach(^{
+    });
+
     it(@"should return an epoch time when epochTime button is tapped", ^{
         [tester waitForViewWithAccessibilityLabel:@"epoch button"];
         [tester tapViewWithAccessibilityLabel:@"epoch button"];
-        
+
         UILabel *epochLabel = (UILabel *)[tester waitForViewWithAccessibilityLabel:@"epoch label"];
-        expect(epochLabel.text).to.equal([NSString stringWithFormat:@"%f",35.0f]);
-    });  
-    
+        expect(epochLabel.text).to.equal([NSString stringWithFormat:@"%f",35.0]);
+    });
+
     afterEach(^{
 
     });
-    
+
     afterAll(^{
 
     });
