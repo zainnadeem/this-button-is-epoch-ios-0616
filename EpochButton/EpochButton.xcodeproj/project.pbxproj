@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18BEDAB036BF4251A442997C /* libPods-EpochButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54632C41836246B7B0F6E3A7 /* libPods-EpochButtonTests.a */; };
-		72230DF119215F1B00AEBFA4 /* FISEpochViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72230DF019215F1B00AEBFA4 /* FISEpochViewControllerSpec.m */; };
 		72F7EAD8191D78B0000D6B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD7191D78B0000D6B27 /* Foundation.framework */; };
 		72F7EADA191D78B0000D6B27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD9191D78B0000D6B27 /* CoreGraphics.framework */; };
 		72F7EADC191D78B0000D6B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EADB191D78B0000D6B27 /* UIKit.framework */; };
@@ -34,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		54632C41836246B7B0F6E3A7 /* libPods-EpochButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpochButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72230DF019215F1B00AEBFA4 /* FISEpochViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISEpochViewControllerSpec.m; sourceTree = "<group>"; };
 		72F7EAD4191D78B0000D6B27 /* EpochButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpochButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7EAD7191D78B0000D6B27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72F7EAD9191D78B0000D6B27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,7 +133,6 @@
 		72F7EAF6191D78B0000D6B27 /* EpochButtonTests */ = {
 			isa = PBXGroup;
 			children = (
-				72230DF019215F1B00AEBFA4 /* FISEpochViewControllerSpec.m */,
 				72F7EAF7191D78B0000D6B27 /* Supporting Files */,
 			);
 			path = EpochButtonTests;
@@ -290,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72230DF119215F1B00AEBFA4 /* FISEpochViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
