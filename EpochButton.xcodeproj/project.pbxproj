@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18BEDAB036BF4251A442997C /* libPods-EpochButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54632C41836246B7B0F6E3A7 /* libPods-EpochButtonTests.a */; };
-		72230DF119215F1B00AEBFA4 /* FISEpochViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72230DF019215F1B00AEBFA4 /* FISEpochViewControllerSpec.m */; };
-		726E66C41923E35300FC911A /* FISEpochViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726E66C21923E35300FC911A /* FISEpochViewController.m */; };
-		726E66C51923E35300FC911A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726E66C31923E35300FC911A /* Storyboard.storyboard */; };
 		72F7EAD8191D78B0000D6B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD7191D78B0000D6B27 /* Foundation.framework */; };
 		72F7EADA191D78B0000D6B27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD9191D78B0000D6B27 /* CoreGraphics.framework */; };
 		72F7EADC191D78B0000D6B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EADB191D78B0000D6B27 /* UIKit.framework */; };
@@ -22,6 +19,9 @@
 		72F7EAF2191D78B0000D6B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD7191D78B0000D6B27 /* Foundation.framework */; };
 		72F7EAF3191D78B0000D6B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EADB191D78B0000D6B27 /* UIKit.framework */; };
 		72F7EAFB191D78B0000D6B27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72F7EAF9191D78B0000D6B27 /* InfoPlist.strings */; };
+		D8843A9619EEE29100F9DBBA /* FISEpochViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8843A9419EEE29100F9DBBA /* FISEpochViewController.m */; };
+		D8843A9719EEE29100F9DBBA /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8843A9519EEE29100F9DBBA /* Storyboard.storyboard */; };
+		D8843A9919EEE2FF00F9DBBA /* FISEpochViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D8843A9819EEE2FF00F9DBBA /* FISEpochViewControllerSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,6 @@
 /* Begin PBXFileReference section */
 		068B27BA944194FCDD181029 /* Pods-EpochButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpochButtonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpochButtonTests/Pods-EpochButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		54632C41836246B7B0F6E3A7 /* libPods-EpochButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpochButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		72230DF019215F1B00AEBFA4 /* FISEpochViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISEpochViewControllerSpec.m; sourceTree = "<group>"; };
-		726E66C11923E35300FC911A /* FISEpochViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISEpochViewController.h; sourceTree = "<group>"; };
-		726E66C21923E35300FC911A /* FISEpochViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISEpochViewController.m; sourceTree = "<group>"; };
-		726E66C31923E35300FC911A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		72F7EAD4191D78B0000D6B27 /* EpochButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpochButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7EAD7191D78B0000D6B27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72F7EAD9191D78B0000D6B27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +53,10 @@
 		72F7EAF8191D78B0000D6B27 /* EpochButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EpochButtonTests-Info.plist"; sourceTree = "<group>"; };
 		72F7EAFA191D78B0000D6B27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A7050BCB61819990F452767A /* Pods-EpochButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpochButtonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpochButtonTests/Pods-EpochButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8843A9319EEE29100F9DBBA /* FISEpochViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FISEpochViewController.h; path = EpochButton/FISEpochViewController.h; sourceTree = "<group>"; };
+		D8843A9419EEE29100F9DBBA /* FISEpochViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISEpochViewController.m; path = EpochButton/FISEpochViewController.m; sourceTree = "<group>"; };
+		D8843A9519EEE29100F9DBBA /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = EpochButton/Storyboard.storyboard; sourceTree = "<group>"; };
+		D8843A9819EEE2FF00F9DBBA /* FISEpochViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISEpochViewControllerSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +119,9 @@
 		72F7EADD191D78B0000D6B27 /* EpochButton */ = {
 			isa = PBXGroup;
 			children = (
-				726E66C11923E35300FC911A /* FISEpochViewController.h */,
-				726E66C21923E35300FC911A /* FISEpochViewController.m */,
-				726E66C31923E35300FC911A /* Storyboard.storyboard */,
+				D8843A9319EEE29100F9DBBA /* FISEpochViewController.h */,
+				D8843A9419EEE29100F9DBBA /* FISEpochViewController.m */,
+				D8843A9519EEE29100F9DBBA /* Storyboard.storyboard */,
 				72F7EAE6191D78B0000D6B27 /* FISAppDelegate.h */,
 				72F7EAE7191D78B0000D6B27 /* FISAppDelegate.m */,
 				72F7EAE9191D78B0000D6B27 /* Images.xcassets */,
@@ -144,6 +144,7 @@
 		72F7EAF6191D78B0000D6B27 /* EpochButtonTests */ = {
 			isa = PBXGroup;
 			children = (
+				D8843A9819EEE2FF00F9DBBA /* FISEpochViewControllerSpec.m */,
 				72F7EAF7191D78B0000D6B27 /* Supporting Files */,
 			);
 			path = EpochButtonTests;
@@ -247,7 +248,7 @@
 			files = (
 				72F7EAE2191D78B0000D6B27 /* InfoPlist.strings in Resources */,
 				72F7EAEA191D78B0000D6B27 /* Images.xcassets in Resources */,
-				726E66C51923E35300FC911A /* Storyboard.storyboard in Resources */,
+				D8843A9719EEE29100F9DBBA /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				726E66C41923E35300FC911A /* FISEpochViewController.m in Sources */,
+				D8843A9619EEE29100F9DBBA /* FISEpochViewController.m in Sources */,
 				72F7EAE4191D78B0000D6B27 /* main.m in Sources */,
 				72F7EAE8191D78B0000D6B27 /* FISAppDelegate.m in Sources */,
 			);
@@ -309,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8843A9919EEE2FF00F9DBBA /* FISEpochViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
