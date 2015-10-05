@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18BEDAB036BF4251A442997C /* libPods-EpochButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54632C41836246B7B0F6E3A7 /* libPods-EpochButtonTests.a */; };
+		4D3DF6341BC2EC6F0047AB5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6331BC2EC6F0047AB5C /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D3DF6361BC2EC7E0047AB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DF6351BC2EC7E0047AB5C /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		72F7EAD8191D78B0000D6B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD7191D78B0000D6B27 /* Foundation.framework */; };
 		72F7EADA191D78B0000D6B27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EAD9191D78B0000D6B27 /* CoreGraphics.framework */; };
 		72F7EADC191D78B0000D6B27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7EADB191D78B0000D6B27 /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		068B27BA944194FCDD181029 /* Pods-EpochButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpochButtonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpochButtonTests/Pods-EpochButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D3DF6331BC2EC6F0047AB5C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4D3DF6351BC2EC7E0047AB5C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		54632C41836246B7B0F6E3A7 /* libPods-EpochButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpochButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7EAD4191D78B0000D6B27 /* EpochButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpochButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F7EAD7191D78B0000D6B27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,7 +120,9 @@
 			children = (
 				72F7EAE6191D78B0000D6B27 /* FISAppDelegate.h */,
 				72F7EAE7191D78B0000D6B27 /* FISAppDelegate.m */,
+				4D3DF6351BC2EC7E0047AB5C /* Main.storyboard */,
 				72F7EAE9191D78B0000D6B27 /* Images.xcassets */,
+				4D3DF6331BC2EC6F0047AB5C /* Launch Screen.storyboard */,
 				72F7EADE191D78B0000D6B27 /* Supporting Files */,
 			);
 			path = EpochButton;
@@ -207,7 +213,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FIS;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = FIS;
 				TargetAttributes = {
 					72F7EAEE191D78B0000D6B27 = {
@@ -238,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3DF6341BC2EC6F0047AB5C /* Launch Screen.storyboard in Resources */,
+				4D3DF6361BC2EC7E0047AB5C /* Main.storyboard in Resources */,
 				72F7EAE2191D78B0000D6B27 /* InfoPlist.strings in Resources */,
 				72F7EAEA191D78B0000D6B27 /* Images.xcassets in Resources */,
 			);
@@ -352,6 +360,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -366,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -398,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -408,10 +417,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EpochButton/EpochButton-Prefix.pch";
 				INFOPLIST_FILE = "EpochButton/EpochButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,10 +431,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EpochButton/EpochButton-Prefix.pch";
 				INFOPLIST_FILE = "EpochButton/EpochButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +458,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "EpochButtonTests/EpochButtonTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -466,6 +478,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EpochButton/EpochButton-Prefix.pch";
 				INFOPLIST_FILE = "EpochButtonTests/EpochButtonTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
