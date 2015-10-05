@@ -1,7 +1,4 @@
----
-  tags: beginner, views, todo
-  languages: objc
----
+
 
 ## Summary
   * Create an epic app that gives you an epoch time... see what i did there?

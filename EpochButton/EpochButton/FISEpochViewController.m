@@ -10,7 +10,7 @@
 
 @interface FISEpochViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *epochLabel;
-@property (weak, nonatomic) IBOutlet UIButton *epochButton;
+
 
 @end
 
@@ -47,7 +47,7 @@
     self.epochLabel.text = [NSString stringWithFormat:@"%f",[self epochMethod]];
 }
 
--(double)epochMethod
+- (CGFloat)epochMethod
 {
     return [[NSDate date] timeIntervalSince1970];
 }
