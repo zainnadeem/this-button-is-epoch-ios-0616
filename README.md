@@ -34,6 +34,6 @@ Open the `EpochButton.xcworkspace` file and navigate to the `Main.storyboard` fi
 }
 ```
 
-**Hint:** *If this method returns a float value, how can display that value as a string?*
+**Hint:** *If this method returns a float value, how can we display that value as a string?*
 
 If you connected this action correctly, the lab's single test should pass.
