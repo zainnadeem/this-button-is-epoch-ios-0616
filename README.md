@@ -37,4 +37,4 @@ Open the `EpochButton.xcworkspace` file and navigate to the `Main.storyboard` fi
 **Hint:** *If this method returns a float value, how can we display that value as a string?*
 
 If you connected this action correctly, the lab's single test should pass.
-<a href='https://learn.co/lessons/this-button-is-epoch' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/this-button-is-epoch' title='This Button Is Epoch'>This Button Is Epoch</a> on Learn.co and start learning to code for free.</p>
