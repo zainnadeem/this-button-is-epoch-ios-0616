@@ -29,7 +29,7 @@ Open the `EpochButton.xcworkspace` file and navigate to the `Main.storyboard` fi
 6. Write the implementation for your IBAction so that when the `UIButton` is tapped, the `UILabel`'s text is updated to the result of calling the following method (which you should insert into the `FISEpochViewController.m` file as a helper method):
 
 ```objc
-- (CGFloat)secondsSinceEpoch {
+- (CGFloat)epochMethod {
     return [[NSDate date] timeIntervalSince1970];
 }
 ```
