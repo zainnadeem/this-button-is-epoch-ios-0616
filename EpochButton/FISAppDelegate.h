@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FISEpochViewController.h"
 
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 
